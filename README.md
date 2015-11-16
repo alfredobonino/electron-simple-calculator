@@ -8,3 +8,7 @@ npm install electron-prebuilt -g
 and then run:
 
 electron .
+
+this program use Semantic UI whit MIT License
+
+This example is licensed under MIT License.
