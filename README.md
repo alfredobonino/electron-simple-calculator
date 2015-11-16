@@ -9,6 +9,10 @@ and then run:
 
 electron .
 
+Screenshot:
+
+(/images/logo.png)
+
 this program use Semantic UI whit MIT License
 
 This example is licensed under MIT License.
