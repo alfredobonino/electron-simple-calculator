@@ -11,7 +11,7 @@ electron .
 
 Screenshot:
 
-(/images/logo.png)
+(screen.png)
 
 this program use Semantic UI whit MIT License
 
