@@ -1,0 +1,6 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal calculator build with electron",
+  "main": "main.js"
+}

@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="semantic-ui/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="semantic-ui/semantic.min.js"></script>
+    <title>Electron Simple Calculator</title>
+  </head>
+  <body>
+      <form action="#" onsubmit="txt.value = eval(txt.value)">
+        <div id="input_calc" class="ui input focus">
+          <input style="font-size: 12pt;" type="text" id="txt" autofocus>
+        </div><br><br>
+        <input id="button" class="ui green button" type="button" value="  1  " onclick="txt.value += '1'">
+        <input id="button" class="ui green button" type="button" value="  2  " class="nums" onclick="txt.value += '2'">
+        <input id="button" class="ui green button" type="button" value="  3  " class="nums" onclick="txt.value += '3'">
+        <input id="button" class="ui blue button" type="button" value="  +  " onclick="txt.value += ' + '">
+        <br /><br />
+        <input id="button" class="ui green button" type="button" value="  4  " class="nums" onclick="txt.value += '4'">
+        <input id="button" class="ui green button" type="button" value="  5  " class="nums" onclick="txt.value += '5'">
+        <input id="button" class="ui green button" type="button" value="  6  " class="nums" onclick="txt.value += '6'">
+        <input id="button" class="ui blue button" type="button" value="  -  " onclick="txt.value += ' - '">
+        <br /><br />
+        <input id="button" class="ui green button" type="button" value="  7  " class="nums" onclick="txt.value += '7'">
+        <input id="button" class="ui green button" type="button" value="  8  " class="nums" onclick="txt.value += '8'">
+        <input id="button" class="ui green button" type="button" value="  9  " class="nums" onclick="txt.value += '9'">
+        <input id="button" class="ui blue button" type="button" value="  x  " onclick="txt.value += ' * '">
+        <br /><br />
+        <input id="button" class="ui red button" type="button" value="  C  " onclick="txt.value = ''">
+        <input id="button" class="ui green button" type="button" value="  0  " class="nums" onclick="txt.value += '0'">
+        <input id="button" class="ui orange button" type="button" value="  =  " onclick="txt.value = eval(txt.value)">
+        <input id="button" class="ui blue button" type="button" value="  /  " onclick="txt.value += ' / '">
+        <script>
+          var txt = document.getElementById('txt');
+        </script>
+      </form>
+</body>
+</html>
