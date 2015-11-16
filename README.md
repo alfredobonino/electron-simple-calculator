@@ -11,7 +11,7 @@ electron .
 
 Screenshot:
 
-(screen.png)
+![Alt text](screen.png)
 
 this program use Semantic UI whit MIT License
 
