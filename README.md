@@ -11,7 +11,7 @@ electron .
 
 Screenshot(Linux):
 
-![Alt text](screen_linux.png)
+![Alt text](screen-linux.png)
 
 Screenshot(Windows):
 
