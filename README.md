@@ -9,7 +9,11 @@ and then run:
 
 electron .
 
-Screenshot:
+Screenshot(Linux):
+
+![Alt text](screen_linux.png)
+
+Screenshot(Windows):
 
 ![Alt text](screen.png)
 
