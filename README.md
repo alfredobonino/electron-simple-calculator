@@ -20,6 +20,6 @@ Screenshot(Windows):
 
 ![Alt text](screen.png)
 
-this program use Semantic UI whit MIT License
+this program use Semantic UI licensed under MIT License
 
 This example is licensed under MIT License.
